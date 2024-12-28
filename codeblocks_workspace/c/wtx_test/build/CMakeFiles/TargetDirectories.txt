@@ -1,0 +1,3 @@
+D:/wtx_dev_workspace/tb14-_wtx_learn/codeblocks_workspace/c/wtx_test/build/CMakeFiles/wtx_test.dir
+D:/wtx_dev_workspace/tb14-_wtx_learn/codeblocks_workspace/c/wtx_test/build/CMakeFiles/edit_cache.dir
+D:/wtx_dev_workspace/tb14-_wtx_learn/codeblocks_workspace/c/wtx_test/build/CMakeFiles/rebuild_cache.dir

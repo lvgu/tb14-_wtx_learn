@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1735347340 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\src\test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	<fcntl.h>
+	<io.h>
+
+1735353016 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\main.cpp
+	<iostream>
+	<shlwapi.h>
+	"benchmark/benchmark.h"
+	<io.h>
+	"h/test.h"
+
+1733844543 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\h\benchmark\benchmark.h
+	<stdint.h>
+	<algorithm>
+	<cassert>
+	<cstddef>
+	<iosfwd>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<utility>
+	<vector>
+	"benchmark/export.h"
+	<atomic>
+	<initializer_list>
+	<type_traits>
+	<utility>
+	<intrin.h>
+
+1733844543 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\h\benchmark\export.h
+
+1735346563 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\src\test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	<fcntl.h>
+	<io.h>
+
+1735352980 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\h\test.h
+
+1735352302 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\src\test.cpp
+	<chrono>
+	<iostream>
+
+1735348016 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\h\test.hpp
+	"test.h"
+
+1735352932 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\cpp\benchmark\src\test2.cpp
+	<chrono>
+	<iostream>
+	"../h/test.h"
+

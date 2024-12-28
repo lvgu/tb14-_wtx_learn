@@ -1,5 +1,15 @@
 # depslib dependency file v1.0
-1734433209 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\main.c
+1735295140 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\main.c
+	"test.h"
+
+1735295123 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\test.h
+
+1735358184 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\test.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	<fcntl.h>
+	<stdint.h>
+	<io.h>
 
