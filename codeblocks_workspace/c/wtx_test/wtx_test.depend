@@ -4,11 +4,13 @@
 
 1735295123 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\test.h
 
-1735358184 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\test.c
+1736573525 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\wtx_test\test.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<stdlib.h>
+	<pthread.h>
+	<windows.h>
 	<fcntl.h>
 	<stdint.h>
 	<io.h>

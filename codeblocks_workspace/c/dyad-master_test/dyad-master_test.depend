@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1472378241 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\dyad-master_test\dyad.c
+	<winsock2.h>
+	<ws2tcpip.h>
+	<windows.h>
+	<unistd.h>
+	<netdb.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<signal.h>
+	<errno.h>
+	<limits.h>
+	"dyad.h"
+
+1472378241 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\dyad-master_test\dyad.h
+	<stdarg.h>
+	<windows.h>
+
+1735979953 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\dyad-master_test\main.c
+	<stdio.h>
+	<stdlib.h>
+	"dyad.h"
+

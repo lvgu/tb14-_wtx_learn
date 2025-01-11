@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="design_parttern" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/design_parttern" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/design_parttern" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/include/ibutton.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/ifactory.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/iwidget.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/linux_button.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/linux_factory.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/linux_widget.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/mac_button.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/mac_factory.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/mac_widget.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/windows_button.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/windows_factory.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/include/windows_widget.h" />
+		<Unit filename="ooc_design_p/AbstractFactory/src/linux_button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/linux_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/linux_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/mac_button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/mac_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/mac_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/test_abstract_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/windows_button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/windows_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/AbstractFactory/src/windows_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Adapter/include/adaptee.h" />
+		<Unit filename="ooc_design_p/Adapter/include/adapter.h" />
+		<Unit filename="ooc_design_p/Adapter/include/iadaptee.h" />
+		<Unit filename="ooc_design_p/Adapter/include/itarget.h" />
+		<Unit filename="ooc_design_p/Adapter/include/target.h" />
+		<Unit filename="ooc_design_p/Adapter/src/adaptee.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Adapter/src/adapter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Adapter/src/target.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Adapter/src/test_adapter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/include/abstract_message.h" />
+		<Unit filename="ooc_design_p/Bridge/include/email_sender.h" />
+		<Unit filename="ooc_design_p/Bridge/include/findpwd_message.h" />
+		<Unit filename="ooc_design_p/Bridge/include/imessage_sender.h" />
+		<Unit filename="ooc_design_p/Bridge/include/signup_message.h" />
+		<Unit filename="ooc_design_p/Bridge/include/sms_sender.h" />
+		<Unit filename="ooc_design_p/Bridge/src/abstract_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/src/email_sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/src/findpwd_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/src/signup_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/src/sms_sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Bridge/src/test_bridge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/include/abstract_car.h" />
+		<Unit filename="ooc_design_p/Builder/include/audi_builder.h" />
+		<Unit filename="ooc_design_p/Builder/include/audi_car.h" />
+		<Unit filename="ooc_design_p/Builder/include/benz_builder.h" />
+		<Unit filename="ooc_design_p/Builder/include/benz_car.h" />
+		<Unit filename="ooc_design_p/Builder/include/ibuilder.h" />
+		<Unit filename="ooc_design_p/Builder/include/icar.h" />
+		<Unit filename="ooc_design_p/Builder/include/producer.h" />
+		<Unit filename="ooc_design_p/Builder/src/abstract_car.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/audi_builder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/audi_car.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/benz_builder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/benz_car.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/producer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Builder/src/test_builder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/ChainOfResponsibility/include/abstract_manager.h" />
+		<Unit filename="ooc_design_p/ChainOfResponsibility/include/boss.h" />
+		<Unit filename="ooc_design_p/ChainOfResponsibility/include/hr.h" />
+		<Unit filename="ooc_design_p/ChainOfResponsibility/include/imanager.h" />
+		<Unit filename="ooc_design_p/ChainOfResponsibility/include/project_manager.h" />
+		<Unit filename="ooc_design_p/ChainOfResponsibility/src/abstract_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/ChainOfResponsibility/src/boss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/ChainOfResponsibility/src/hr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/ChainOfResponsibility/src/project_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/ChainOfResponsibility/src/test_chainOfResponsibility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Command/include/iblockingqueue.h" />
+		<Unit filename="ooc_design_p/Command/include/icommand.h" />
+		<Unit filename="ooc_design_p/Command/include/ilist.h" />
+		<Unit filename="ooc_design_p/Command/include/iqueue.h" />
+		<Unit filename="ooc_design_p/Command/include/linked_blockingqueue.h" />
+		<Unit filename="ooc_design_p/Command/include/linkedlist.h" />
+		<Unit filename="ooc_design_p/Command/include/linkedqueue.h" />
+		<Unit filename="ooc_design_p/Command/include/thread_pool.h" />
+		<Unit filename="ooc_design_p/Command/src/linked_blockingqueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Command/src/linkedlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Command/src/linkedqueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Command/src/test_command.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Command/src/thread_pool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Composite/include/abstract_file.h" />
+		<Unit filename="ooc_design_p/Composite/include/directory.h" />
+		<Unit filename="ooc_design_p/Composite/include/ifile.h" />
+		<Unit filename="ooc_design_p/Composite/include/regular.h" />
+		<Unit filename="ooc_design_p/Composite/src/abstract_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Composite/src/directory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Composite/src/regular.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Composite/src/test_composite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Decorator/include/border_decorator.h" />
+		<Unit filename="ooc_design_p/Decorator/include/iwindow.h" />
+		<Unit filename="ooc_design_p/Decorator/include/window.h" />
+		<Unit filename="ooc_design_p/Decorator/src/border_decorator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Decorator/src/test_decorator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Decorator/src/window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Facade/include/computer_facade.h" />
+		<Unit filename="ooc_design_p/Facade/include/cpu.h" />
+		<Unit filename="ooc_design_p/Facade/include/harddrive.h" />
+		<Unit filename="ooc_design_p/Facade/include/memory.h" />
+		<Unit filename="ooc_design_p/Facade/src/computer_facade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Facade/src/cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Facade/src/harddrive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Facade/src/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Facade/src/test_facade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/include/ifactory.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/iwidget.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/linux_widget.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/linux_widget_factory.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/mac_widget.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/mac_widget_factory.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/windows_widget.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/include/windows_widget_factory.h" />
+		<Unit filename="ooc_design_p/FactoryMethod/src/linux_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/linux_widget_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/mac_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/mac_widget_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/test_factoryMethod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/windows_widget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/FactoryMethod/src/windows_widget_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Flyweight/include/ipermission.h" />
+		<Unit filename="ooc_design_p/Flyweight/include/permission_factory.h" />
+		<Unit filename="ooc_design_p/Flyweight/include/permission_type.h" />
+		<Unit filename="ooc_design_p/Flyweight/include/read_permission.h" />
+		<Unit filename="ooc_design_p/Flyweight/include/readwrite_permission.h" />
+		<Unit filename="ooc_design_p/Flyweight/include/write_permission.h" />
+		<Unit filename="ooc_design_p/Flyweight/src/permission_factory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Flyweight/src/read_permission.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Flyweight/src/readwrite_permission.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Flyweight/src/test_flyweight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Flyweight/src/write_permission.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/include/context.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/divide.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/iexpression.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/minus.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/multiply.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/number.h" />
+		<Unit filename="ooc_design_p/Interpreter/include/plus.h" />
+		<Unit filename="ooc_design_p/Interpreter/src/context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/divide.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/minus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/multiply.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/number.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/plus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Interpreter/src/test_interpreter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Iterator/include/arraylist.h" />
+		<Unit filename="ooc_design_p/Iterator/include/arraylist_iterator.h" />
+		<Unit filename="ooc_design_p/Iterator/include/iiterator.h" />
+		<Unit filename="ooc_design_p/Iterator/include/ilist.h" />
+		<Unit filename="ooc_design_p/Iterator/include/linkedlist.h" />
+		<Unit filename="ooc_design_p/Iterator/include/linkedlist_iterator.h" />
+		<Unit filename="ooc_design_p/Iterator/src/arraylist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Iterator/src/arraylist_iterator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Iterator/src/linkedlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Iterator/src/linkedlist_iterator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Iterator/src/test_iterator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Mediator/include/department.h" />
+		<Unit filename="ooc_design_p/Mediator/include/department_user.h" />
+		<Unit filename="ooc_design_p/Mediator/include/mediator.h" />
+		<Unit filename="ooc_design_p/Mediator/include/user.h" />
+		<Unit filename="ooc_design_p/Mediator/src/department.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Mediator/src/department_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Mediator/src/mediator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Mediator/src/test_mediator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Mediator/src/user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Memento/include/calculator.h" />
+		<Unit filename="ooc_design_p/Memento/include/calculator_memento_manager.h" />
+		<Unit filename="ooc_design_p/Memento/include/iclone.h" />
+		<Unit filename="ooc_design_p/Memento/include/imemento.h" />
+		<Unit filename="ooc_design_p/Memento/src/calculator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Memento/src/calculator_memento_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Memento/src/test_memento.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Observer/include/iobserver.h" />
+		<Unit filename="ooc_design_p/Observer/include/observed.h" />
+		<Unit filename="ooc_design_p/Observer/include/observer.h" />
+		<Unit filename="ooc_design_p/Observer/src/observed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Observer/src/observer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Observer/src/test_observer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Prototype/include/abstract_number_container.h" />
+		<Unit filename="ooc_design_p/Prototype/include/iclone.h" />
+		<Unit filename="ooc_design_p/Prototype/include/multiple_of_2_container.h" />
+		<Unit filename="ooc_design_p/Prototype/include/multiple_of_3_container.h" />
+		<Unit filename="ooc_design_p/Prototype/src/abstract_number_container.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Prototype/src/multiple_of_2_container.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Prototype/src/multiple_of_3_container.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Prototype/src/test_prototype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Proxy/include/iimage.h" />
+		<Unit filename="ooc_design_p/Proxy/include/proxy_image.h" />
+		<Unit filename="ooc_design_p/Proxy/include/real_image.h" />
+		<Unit filename="ooc_design_p/Proxy/src/proxy_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Proxy/src/real_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Proxy/src/test_proxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Singleton/include/singleton.h" />
+		<Unit filename="ooc_design_p/Singleton/src/singleton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Singleton/src/singletonDCL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Singleton/src/test_singleton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/include/abstract_qrcode_state.h" />
+		<Unit filename="ooc_design_p/State/include/iqrcode_state.h" />
+		<Unit filename="ooc_design_p/State/include/noqrcode_state.h" />
+		<Unit filename="ooc_design_p/State/include/qrcode_authorized_state.h" />
+		<Unit filename="ooc_design_p/State/include/qrcode_authorizing_state.h" />
+		<Unit filename="ooc_design_p/State/include/qrcode_state_machine.h" />
+		<Unit filename="ooc_design_p/State/include/qrcode_valid_state.h" />
+		<Unit filename="ooc_design_p/State/src/abstract_qrcode_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/noqrcode_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/qrcode_authorized_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/qrcode_authorizing_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/qrcode_state_machine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/qrcode_valid_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/State/src/test_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Strategy/include/airplane_strategy.h" />
+		<Unit filename="ooc_design_p/Strategy/include/itravel_strategy.h" />
+		<Unit filename="ooc_design_p/Strategy/include/person.h" />
+		<Unit filename="ooc_design_p/Strategy/include/train_strategy.h" />
+		<Unit filename="ooc_design_p/Strategy/src/airplane_strategy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Strategy/src/person.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Strategy/src/test_strategy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Strategy/src/train_strategy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/TemplateMethod/include/abstract_game.h" />
+		<Unit filename="ooc_design_p/TemplateMethod/include/chess.h" />
+		<Unit filename="ooc_design_p/TemplateMethod/include/dota2.h" />
+		<Unit filename="ooc_design_p/TemplateMethod/include/igame.h" />
+		<Unit filename="ooc_design_p/TemplateMethod/src/abstract_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/TemplateMethod/src/chess.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/TemplateMethod/src/dota2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/TemplateMethod/src/test_templateMethod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/include/body.h" />
+		<Unit filename="ooc_design_p/Visitor/include/car.h" />
+		<Unit filename="ooc_design_p/Visitor/include/car_element_run_visitor.h" />
+		<Unit filename="ooc_design_p/Visitor/include/engine.h" />
+		<Unit filename="ooc_design_p/Visitor/include/icar_element.h" />
+		<Unit filename="ooc_design_p/Visitor/include/icar_element_visitor.h" />
+		<Unit filename="ooc_design_p/Visitor/include/wheel.h" />
+		<Unit filename="ooc_design_p/Visitor/src/body.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/src/car.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/src/car_element_run_visitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/src/engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/src/test_visitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/Visitor/src/wheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ooc_design_p/lib/include/base.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
