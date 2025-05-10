@@ -1,7 +1,7 @@
 #include "base.h"
 #include "computer_facade.h"
 
-int main()
+int test_facade()
 {
 	ComputerFacade* computerFacade = new (ComputerFacade);
 	computerFacade->start(computerFacade);

@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1736655758 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\linux_button.c
+	<stdio.h>
+	"../include/ibutton.h"
+	"../include/linux_button.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\ibutton.h
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\linux_button.h
+	"ibutton.h"
+
+1736655792 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\linux_factory.c
+	<stdio.h>
+	"base.h"
+	"../include/iwidget.h"
+	"../include/ibutton.h"
+	"../include/ifactory.h"
+	"../include/linux_widget.h"
+	"../include/linux_button.h"
+	"../include/linux_factory.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\lib\include\base.h
+	<stdlib.h>
+	<stddef.h>
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\iwidget.h
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\ifactory.h
+	"iwidget.h"
+	"ibutton.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\linux_widget.h
+	"iwidget.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\linux_factory.h
+	"ifactory.h"
+
+1736655951 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\linux_widget.c
+	<stdio.h>
+	"../include/iwidget.h"
+	"../include/linux_widget.h"
+
+1736655951 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\mac_button.c
+	<stdio.h>
+	"../include/ibutton.h"
+	"../include/mac_button.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\mac_button.h
+	"ibutton.h"
+
+1736655951 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\mac_factory.c
+	<stdio.h>
+	"base.h"
+	"../include/iwidget.h"
+	"../include/ibutton.h"
+	"../include/ifactory.h"
+	"../include/mac_widget.h"
+	"../include/mac_button.h"
+	"../include/mac_factory.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\mac_widget.h
+	"iwidget.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\mac_factory.h
+	"ifactory.h"
+
+1736655951 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\mac_widget.c
+	<stdio.h>
+	"../include/iwidget.h"
+	"../include/mac_widget.h"
+
+1736655951 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\windows_button.c
+	<stdio.h>
+	"../include/ibutton.h"
+	"../include/windows_button.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\windows_button.h
+	"ibutton.h"
+
+1736656022 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\windows_factory.c
+	<stdio.h>
+	"base.h"
+	"../include/iwidget.h"
+	"../include/ibutton.h"
+	"../include/ifactory.h"
+	"../include/windows_widget.h"
+	"../include/windows_button.h"
+	"../include/windows_factory.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\windows_widget.h
+	"iwidget.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\include\windows_factory.h
+	"ifactory.h"
+
+1736656297 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\abstractfactory\src\windows_widget.c
+	<stdio.h>
+	"../include/iwidget.h"
+	"../include/windows_widget.h"
+
+1736656563 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\src\adaptee.c
+	<stdio.h>
+	"../include/iadaptee.h"
+	"../include/adaptee.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\include\iadaptee.h
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\include\adaptee.h
+	"iadaptee.h"
+
+1736656596 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\src\target.c
+	<stdio.h>
+	"../include/itarget.h"
+	"../include/target.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\include\itarget.h
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\include\target.h
+	"itarget.h"
+
+1736656594 source:d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\src\test_adapter.c
+	<stdio.h>
+	"base.h"
+	"../include/itarget.h"
+	"../include/target.h"
+	"../include/iadaptee.h"
+	"../include/adaptee.h"
+	"../include/adapter.h"
+
+1448029369 d:\wtx_dev_workspace\tb14-_wtx_learn\codeblocks_workspace\c\design_parttern\ooc_design_p\adapter\include\adapter.h
+	"itarget.h"
+	"iadaptee.h"
+

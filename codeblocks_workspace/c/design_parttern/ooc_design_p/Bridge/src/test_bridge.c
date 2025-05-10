@@ -8,7 +8,7 @@
 #include "findpwd_message.h"
 #include "signup_message.h"
 
-int main()
+int test_bridge()
 {
 	SMSSender* smsSender = new (SMSSender);
 	EmailSender* emailSender = new (EmailSender);

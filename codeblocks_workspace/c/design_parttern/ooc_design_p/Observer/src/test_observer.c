@@ -7,7 +7,7 @@
 
 const int OBSERVER_SIZE = 10;
 
-int main()
+int test_observer()
 {
 	Observed* observed = new (Observed);
 	IObserved* iobserved = &observed->iobserved;

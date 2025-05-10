@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int test_abstract_factory();
+#include "ooc_design_p/header_all.h"
 
 int main()
 {
     printf("Hello world!\n");
 
     test_abstract_factory();
+
     return 0;
 }

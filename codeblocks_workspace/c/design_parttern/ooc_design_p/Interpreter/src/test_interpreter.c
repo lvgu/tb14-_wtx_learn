@@ -3,7 +3,7 @@
 #include "base.h"
 #include "context.h"
 
-int main()
+int test_interpreter()
 {
 	Context* context = new (Context);
 

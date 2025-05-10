@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/c/hello_cmake/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/hello.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\hello.dir\\src\\add\\add.c.obj -c D:\\wtx_dev_workspace\\tb14-_wtx_learn\\vscode_workspace\\c\\hello_cmake\\src\\add\\add.c",
+  "file": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/c/hello_cmake/src/add/add.c",
+  "output": "CMakeFiles/hello.dir/src/add/add.c.obj"
+},
+{
+  "directory": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/c/hello_cmake/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/hello.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\hello.dir\\src\\main.c.obj -c D:\\wtx_dev_workspace\\tb14-_wtx_learn\\vscode_workspace\\c\\hello_cmake\\src\\main.c",
+  "file": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/c/hello_cmake/src/main.c",
+  "output": "CMakeFiles/hello.dir/src/main.c.obj"
+}
+]

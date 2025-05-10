@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "ibutton.h"
-#include "mac_button.h"
+#include "../include/ibutton.h"
+#include "../include/mac_button.h"
 
 static void MacButton_click(IButton*);
 

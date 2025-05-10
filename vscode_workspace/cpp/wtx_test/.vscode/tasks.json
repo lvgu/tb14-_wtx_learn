@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "D:/env/CMake/bin/cmake.exe",
+            "args": [
+                "-B${workspaceFolder}/build",
+                "-G",
+                "MinGW Makefiles",  // 指定生成 Makefile 的生成器
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_CXX_COMPILER=D:/env/mingw64/bin/g++.exe",  // 替换为你的 g++ 路径
+                "-DCMAKE_C_COMPILER=D:/env/mingw64/bin/gcc.exe"     // 替换为你的 gcc 路径
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "D:/env/CMake/bin/cmake.exe",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Debug",
+                "--target",
+                "all"
+            ],
+            "dependsOn": ["CMake Configure"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"]
+        }
+    ]
+}

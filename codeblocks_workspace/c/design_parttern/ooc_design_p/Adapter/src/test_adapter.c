@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 #include "base.h"
-#include "itarget.h"
-#include "target.h"
-#include "iadaptee.h"
-#include "adaptee.h"
-#include "adapter.h"
+#include "../include/itarget.h"
+#include "../include/target.h"
+#include "../include/iadaptee.h"
+#include "../include/adaptee.h"
+#include "../include/adapter.h"
 
-int main()
+int test_adapter()
 {
 	Adaptee* adaptee = new (Adaptee);
 	IAdaptee* iadaptee = &adaptee->iadaptee;

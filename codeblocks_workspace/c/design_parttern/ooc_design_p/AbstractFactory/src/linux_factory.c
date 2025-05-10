@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 #include "base.h"
-#include "iwidget.h"
-#include "ibutton.h"
-#include "ifactory.h"
-#include "linux_widget.h"
-#include "linux_button.h"
-#include "linux_factory.h"
+
+
+#include "../include/iwidget.h"
+#include "../include/ibutton.h"
+#include "../include/ifactory.h"
+#include "../include/linux_widget.h"
+#include "../include/linux_button.h"
+#include "../include/linux_factory.h"
 
 static IWidget* LinuxFactory_createWidget(IFactory*);
 static IButton* LinuxFactory_createButton(IFactory*);

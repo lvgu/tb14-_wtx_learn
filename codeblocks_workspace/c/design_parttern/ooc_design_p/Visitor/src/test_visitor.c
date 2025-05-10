@@ -2,7 +2,7 @@
 #include "car_element_run_visitor.h"
 #include "car.h"
 
-int main()
+int test_visitor()
 {
 	CarElementRunVisitor* carElementRunVisitor = new (CarElementRunVisitor);
 	Car* car = new (Car);

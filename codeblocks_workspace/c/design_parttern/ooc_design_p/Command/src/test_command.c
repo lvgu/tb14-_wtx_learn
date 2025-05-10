@@ -21,7 +21,7 @@ void Task_execute(ICommand* icommand)
 	printf("command, tid=%lu\n", pthread_self());
 }
 
-int main()
+int test_command()
 {
 	ThreadPool* threadPool = new (ThreadPool, 10);
 

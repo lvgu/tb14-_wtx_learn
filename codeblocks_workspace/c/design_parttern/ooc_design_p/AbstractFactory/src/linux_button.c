@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "ibutton.h"
-#include "linux_button.h"
+#include "../include/ibutton.h"
+#include "../include/linux_button.h"
 
 static void LinuxButton_click(IButton*);
 

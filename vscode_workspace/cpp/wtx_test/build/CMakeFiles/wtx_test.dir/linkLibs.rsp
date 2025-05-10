@@ -1,0 +1,1 @@
+ "D:/wtx_dev_workspace/boost_install/lib/libboost_filesystem-mgw12-mt-x64-1_88.a" "D:/wtx_dev_workspace/boost_install/lib/libboost_system-mgw12-mt-x64-1_88.a" -lbcrypt -lsynchronization "D:/wtx_dev_workspace/boost_install/lib/libboost_atomic-mgw12-mt-x64-1_88.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

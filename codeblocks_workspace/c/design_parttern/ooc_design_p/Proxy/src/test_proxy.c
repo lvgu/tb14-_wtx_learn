@@ -2,7 +2,7 @@
 #include "iimage.h"
 #include "proxy_image.h"
 
-int main()
+int test_proxy()
 {
 	ProxyImage* proxyImage = new (ProxyImage);
 	IImage* iimage = &proxyImage->iimage;

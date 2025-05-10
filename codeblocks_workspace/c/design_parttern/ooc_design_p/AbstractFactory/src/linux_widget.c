@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "iwidget.h"
-#include "linux_widget.h"
+#include "../include/iwidget.h"
+#include "../include/linux_widget.h"
 
 static void LinuxWidget_show(IWidget*);
 

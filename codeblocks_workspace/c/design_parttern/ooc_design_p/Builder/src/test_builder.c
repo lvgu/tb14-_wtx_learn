@@ -7,7 +7,7 @@
 #include "benz_builder.h"
 #include "producer.h"
 
-int main()
+int test_builder()
 {
 	AudiBuilder* audiBuilder = new (AudiBuilder);
 	BenzBuilder* benzBuilder = new (BenzBuilder);

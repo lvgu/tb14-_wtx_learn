@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="ooc_design_p/lib/include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -502,6 +503,7 @@
 		<Unit filename="ooc_design_p/Visitor/src/wheel.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="ooc_design_p/header_all.h" />
 		<Unit filename="ooc_design_p/lib/include/base.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "iadaptee.h"
-#include "adaptee.h"
+#include "../include/iadaptee.h"
+#include "../include/adaptee.h"
 
 static long Adaptee_power(IAdaptee*, int, int);
 

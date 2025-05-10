@@ -54,7 +54,7 @@ void output()
 	// TODO delete
 }
 
-int main()
+int test_prototype()
 {
 	srand(time(NULL));
 	init();

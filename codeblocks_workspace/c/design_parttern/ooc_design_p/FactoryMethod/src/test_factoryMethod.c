@@ -8,7 +8,7 @@
 #include "windows_widget.h"
 #include "windows_widget_factory.h"
 
-int main()
+int test_factoryMethod()
 {
 	LinuxWidgetFactory* linuxWidgetFactory = new (LinuxWidgetFactory);
 	IFactory* ifactory = &linuxWidgetFactory->ifactory;

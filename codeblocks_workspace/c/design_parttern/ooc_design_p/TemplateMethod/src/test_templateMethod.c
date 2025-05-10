@@ -2,7 +2,7 @@
 #include "dota2.h"
 #include "chess.h"
 
-int main()
+int test_templateMethod()
 {
 	Dota2* dota2 = new (Dota2);
 	dota2->play(&dota2->abstractGame, 5);

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "iwidget.h"
-#include "windows_widget.h"
+#include "../include/iwidget.h"
+#include "../include/windows_widget.h"
 
 static void WindowsWidget_show(IWidget*);
 

@@ -8,7 +8,7 @@
 #include "linkedlist.h"
 #include "linkedlist_iterator.h"
 
-int main()
+int test_iterator()
 {
 	ArrayList* arrayList = new (ArrayList, 3);
 	LinkedList* linkedList = new (LinkedList);

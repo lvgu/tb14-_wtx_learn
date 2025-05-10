@@ -4,7 +4,7 @@
 #include "train_strategy.h"
 #include "person.h"
 
-int main()
+int test_strategy()
 {
 	TrainStrategy* trainStrategy = new (TrainStrategy);
 	ITravelStrategy* itravelStrategy = &trainStrategy->itravelStrategy;

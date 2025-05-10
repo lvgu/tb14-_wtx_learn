@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 #include "base.h"
-#include "itarget.h"
-#include "iadaptee.h"
-#include "adapter.h"
+#include "../include/itarget.h"
+#include "../include/iadaptee.h"
+#include "../include/adapter.h"
 
 static long Adapter_powerOf2(ITarget*, int);
 static void Adapter_setAdaptee(Adapter*, IAdaptee*);

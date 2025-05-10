@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 #include "base.h"
-#include "iwidget.h"
-#include "ibutton.h"
-#include "ifactory.h"
-#include "windows_widget.h"
-#include "windows_button.h"
-#include "windows_factory.h"
+
+#include "../include/iwidget.h"
+#include "../include/ibutton.h"
+#include "../include/ifactory.h"
+#include "../include/windows_widget.h"
+#include "../include/windows_button.h"
+#include "../include/windows_factory.h"
 
 static IWidget* WindowsFactory_createWidget(IFactory*);
 static IButton* WindowsFactory_createButton(IFactory*);

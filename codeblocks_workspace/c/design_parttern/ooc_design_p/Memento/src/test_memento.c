@@ -5,7 +5,7 @@
 #include "calculator.h"
 #include "calculator_memento_manager.h"
 
-int main()
+int test_memento()
 {
 	Calculator* calculator = new (Calculator);
 	CalculatorMementoManager* calculatorMementoManager = new (CalculatorMementoManager);

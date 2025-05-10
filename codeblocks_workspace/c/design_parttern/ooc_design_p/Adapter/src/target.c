@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "itarget.h"
-#include "target.h"
+#include "../include/itarget.h"
+#include "../include/target.h"
 
 static long Target_powerOf2(ITarget*, int);
 

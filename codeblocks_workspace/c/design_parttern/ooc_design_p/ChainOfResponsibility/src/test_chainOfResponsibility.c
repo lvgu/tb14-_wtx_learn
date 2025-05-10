@@ -5,7 +5,7 @@
 #include "hr.h"
 #include "boss.h"
 
-int main()
+int test_chainOfResponsibility()
 {
 	ProjectManager* pm = new (ProjectManager);
 	HR* hr = new (HR);

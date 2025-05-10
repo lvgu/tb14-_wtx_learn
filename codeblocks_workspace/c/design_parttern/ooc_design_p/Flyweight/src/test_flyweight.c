@@ -5,7 +5,7 @@
 #include "permission_type.h"
 #include "permission_factory.h"
 
-int main()
+int test_flyweight()
 {
 	PermissionFactory* permissionFactory = PermissionFactory_getInstance();
 	IPermission* ipermission = NULL;

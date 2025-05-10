@@ -1,0 +1,13 @@
+{
+     "cmake.cmakePath": "D:/env/CMake/bin/cmake.exe",
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "D:/env/mingw64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/env/mingw64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "D:/env/mingw64/bin/make.exe"  
+    },
+    
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};D:/env/CMake/bin;D:/env/mingw64/bin"  
+    }
+}

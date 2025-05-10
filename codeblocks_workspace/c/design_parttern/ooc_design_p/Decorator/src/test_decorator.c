@@ -2,7 +2,7 @@
 #include "window.h"
 #include "border_decorator.h"
 
-int main()
+int test_decorator()
 {
 	Window* window = new (Window, 10, 20);
 	IWindow* iwindow = &window->iwindow;

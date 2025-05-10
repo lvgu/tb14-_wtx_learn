@@ -1,7 +1,7 @@
 #include "base.h"
 #include "qrcode_state_machine.h"
 
-int main()
+int test_state()
 {
 	QRCodeStateMachine *stateMachine = new(QRCodeStateMachine);
 

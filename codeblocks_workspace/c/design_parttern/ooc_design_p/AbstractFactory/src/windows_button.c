@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "ibutton.h"
-#include "windows_button.h"
+#include "../include/ibutton.h"
+#include "../include/windows_button.h"
 
 static void WindowsButton_click(IButton*);
 

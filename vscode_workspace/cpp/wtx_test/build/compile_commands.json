@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/cpp/wtx_test/build",
+  "command": "D:\\env\\mingw64\\bin\\g++.exe -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_NO_LIB -DBOOST_SYSTEM_NO_LIB @CMakeFiles/wtx_test.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\wtx_test.dir\\main.cpp.obj -c D:\\wtx_dev_workspace\\tb14-_wtx_learn\\vscode_workspace\\cpp\\wtx_test\\main.cpp",
+  "file": "D:/wtx_dev_workspace/tb14-_wtx_learn/vscode_workspace/cpp/wtx_test/main.cpp",
+  "output": "CMakeFiles/wtx_test.dir/main.cpp.obj"
+}
+]

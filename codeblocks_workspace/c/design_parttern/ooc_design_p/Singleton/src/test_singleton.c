@@ -2,7 +2,7 @@
 
 #include "singleton.h"
 
-int main()
+int test_singleton()
 {
 	Singleton* singleton = getSingleton();
 	printf("%lu\n", singleton->currentTime);

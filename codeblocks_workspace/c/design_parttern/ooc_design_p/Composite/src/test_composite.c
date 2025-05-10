@@ -5,7 +5,7 @@
 #include "directory.h"
 #include "regular.h"
 
-int main()
+int test_composite()
 {
 	Directory* directory = new (Directory);
 	directory->setName(&directory->ifile, "directory");

@@ -17,7 +17,7 @@ void printRelation(DepartmentUser** departmentUsers, size_t size)
 	}
 }
 
-int main()
+int test_mediator()
 {
 	Mediator* mediator = new (Mediator);
 	User* user1 = new (User, mediator, 1, "user1");

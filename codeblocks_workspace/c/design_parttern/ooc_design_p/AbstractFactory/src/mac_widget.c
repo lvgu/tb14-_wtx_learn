@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "iwidget.h"
-#include "mac_widget.h"
+#include "../include/iwidget.h"
+#include "../include/mac_widget.h"
 
 static void MacWidget_show(IWidget*);
 

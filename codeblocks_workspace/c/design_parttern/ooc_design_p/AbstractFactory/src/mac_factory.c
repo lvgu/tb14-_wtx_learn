@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 #include "base.h"
-#include "iwidget.h"
-#include "ibutton.h"
-#include "ifactory.h"
-#include "mac_widget.h"
-#include "mac_button.h"
-#include "mac_factory.h"
+
+#include "../include/iwidget.h"
+#include "../include/ibutton.h"
+#include "../include/ifactory.h"
+#include "../include/mac_widget.h"
+#include "../include/mac_button.h"
+#include "../include/mac_factory.h"
 
 static IWidget* MacFactory_createWidget(IFactory*);
 static IButton* MacFactory_createButton(IFactory*);
